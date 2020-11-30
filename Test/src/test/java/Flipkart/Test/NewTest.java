@@ -177,7 +177,7 @@ public class NewTest {
 				
 			}
 			
-			@AfterTest
+			@AfterTest                                                        //This is after test method
 			public void closeBrowser()
 			{
 				driver.quit();
